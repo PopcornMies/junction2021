@@ -4,22 +4,28 @@
 	<link rel="stylesheet" href="https://unpkg.com/mirotone/dist/styles.css">
   <body>
     <h1>Your Meeting Analysis</h1>
+		{% autoescape off %}
+			{% if graph %}
+			{{ graph|safe }}
+			{% else %}
+			<p>No graph was provided.</p>
+			{% endif %}
+		{% endautoescape %}
 		<div class="grid">
 <!-- tabs -->
 		<div class="tabs">
 			<div class="tabs-header-list">
 				<div tabindex="0" class="tab tab-active">
-					<div class="tab-text tab-badge">Meeting Positivity</div>
+					<div class="tab-text tab-badge">Positivity</div>
 				</div>
 				<div tabindex="0" class="tab">
-					<div class="tab-text tab-badge">Meeting Activity</div>
+					<div class="tab-text tab-badge">Activity</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- <embed type="text/html" src="file.html" width="500">-->
 <!-- assets -->
-	<div class="cs1 ce12 placeholder"></div>
+	<div class="cs3 ce12 placeholder"></div>
 	<div class="cs1 ce12 placeholder"></div>
 	<div class="cs1 ce12 placeholder"></div>
 </div>
