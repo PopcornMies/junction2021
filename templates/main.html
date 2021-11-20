@@ -1,33 +1,37 @@
 <!doctype html>
 
+<style>
+h1 {
+ text-align:center
+}
+</style>
+
+
 <html>
 	<link rel="stylesheet" href="https://unpkg.com/mirotone/dist/styles.css">
-  <body>
-    <h1>Your Meeting Analysis</h1>
-		{% autoescape off %}
-			{% if graph %}
-			{{ graph|safe }}
-			{% else %}
-			<p>No graph was provided.</p>
-			{% endif %}
-		{% endautoescape %}
-		<div class="grid">
-<!-- tabs -->
-		<div class="tabs">
-			<div class="tabs-header-list">
-				<div tabindex="0" class="tab tab-active">
-					<div class="tab-text tab-badge">Positivity</div>
-				</div>
-				<div tabindex="0" class="tab">
-					<div class="tab-text tab-badge">Activity</div>
+	<h1>Your Meeting Analysis</h1>
+	  <body>
+			<button class="button button-primary" onClick="window.location.reload();">Analyse Last Meeting</button>
+			<!-- tabs -->
+					<div class="tabs">
+						<div class="tabs-header-list">
+							<div tabindex="0" class="tab tab-active">
+								<div class="tab-text tab-badge">Positivity</div>
+							</div>
+							<div tabindex="0" class="tab">
+								<div class="tab-text tab-badge">Activity</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-<!-- assets -->
-	<div class="cs3 ce12 placeholder"></div>
-	<div class="cs1 ce12 placeholder"></div>
-	<div class="cs1 ce12 placeholder"></div>
-</div>
-  </body>
+			{% autoescape off %}
+				{% if graph %}
+				{{ graph|safe }}
+				{% else %}
+				<p>Couldn't perform analysis.</p>
+				{% endif %}
+			{% endautoescape %}
+			<div class="grid">
+	  </body>
 </html>

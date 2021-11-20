@@ -3,7 +3,7 @@ import requests
 url = "https://api.miro.com/v2/boards/o9J_lhrBIPg%3D/embeds"
 
 payload = {
-    "data": {"url": "https://junction-332712.appspot.com/"},
+    "data": {"url": "http://127.0.0.1:8000/"},
     "geometry": {
         "x": "0",
         "y": "0"

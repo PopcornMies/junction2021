@@ -2,9 +2,10 @@
 from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
+sentiment = 52.75
 
 def graph_view(request):
-    val = 82
+    val = sentiment
     bar = '#050038'
     fig = go.Figure(go.Indicator(
         mode = "gauge+number",
@@ -25,6 +26,6 @@ def graph_view(request):
                 {'range': [80, 100], 'color': '#90be6d'}]}))
     picker_style = {'float': 'left', 'margin': 'auto'}
     graph = fig.update_layout(paper_bgcolor = "white", font = {'color': "#050038", 'size': 18, 'family': "Open+Sans:wght@900",})
-    graph = fig.to_html(full_html=False, default_height=500, default_width=700)
+    graph = fig.to_html(full_html=False, default_height=500, default_width=500)
     context = {'graph': graph}
     return render(request, 'main.html', context)
