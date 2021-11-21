@@ -12,19 +12,6 @@ h1 {
 	<h1>Your Meeting Analysis</h1>
 	  <body>
 			<button class="button button-primary" onClick="window.location.reload();">Analyse Last Meeting</button>
-			<!-- tabs -->
-					<div class="tabs">
-						<div class="tabs-header-list">
-							<div tabindex="0" class="tab tab-active">
-								<div class="tab-text tab-badge">Positivity</div>
-							</div>
-							<div tabindex="0" class="tab">
-								<div class="tab-text tab-badge">Activity</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			{% autoescape off %}
 				{% if graph %}
 				{{ graph|safe }}
