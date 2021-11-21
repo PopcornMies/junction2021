@@ -2,7 +2,7 @@
 from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
-sentiment = 52.75
+sentiment = 54.2
 
 def graph_view(request):
     val = sentiment
@@ -24,8 +24,12 @@ def graph_view(request):
                 {'range': [40, 60], 'color': '#f8961e'},
                 {'range': [60, 80], 'color': '#f9c74f'},
                 {'range': [80, 100], 'color': '#90be6d'}]}))
-    picker_style = {'float': 'left', 'margin': 'auto'}
     graph = fig.update_layout(paper_bgcolor = "white", font = {'color': "#050038", 'size': 18, 'family': "Open+Sans:wght@900",})
     graph = fig.to_html(full_html=False, default_height=500, default_width=500)
     context = {'graph': graph}
+    return render(request, 'main.html', context)
+
+def test_view(request):
+    test = 'this is a test'
+    context = {'test': test}
     return render(request, 'main.html', context)
