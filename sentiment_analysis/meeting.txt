@@ -1,0 +1,37 @@
+0            : I am glad to welcome all board members to the fourth meeting of the Venus Corporation. Thank you, thank you for being present in this meeting. Can we call this meeting to order?
+0              : Are there any apologies for absence for today’s meeting?
+1                  : Yes, MrsChairerson, Bella is on medical leave being admitted to the hospital since yesterday because of contraction. While, Shahrul Khan is on business trip for the joint venture meeting with the company in Korea.
+0                 : Thank You, can we proceed to the next item, regarding of the minutes from the previous meeting?
+0                 : Are there any amendment?
+2                                : Yes, Mrs 0. There is correction to item number 7. This item number 7, the amount allocated for show room gallery was RM45700, not RM45400.
+1                      : Thank You Mrs Am, I’ll make the necessary correction to amount.
+0                 : Are there any other amendments?
+3                               : Yes, based on the previous meeting, on item 4.1, the date of the company trip is actually on 29th October not 23rd October.
+1                      : Okay, I will take noted and change the date.
+0                 : Is there anybody else who want to add?
+0                 :Thank you, can someone propose the minutes be passed as a true record?
+4                            : I propose the minutes to be passed as a true record.
+5                           : I second the motion.
+0             : Let’s move on. Any matters arising?
+6                  : Yes, Madam Chairman. I would like to ask on the progression of the Gala Night and Award Ceremony which has been proposed in the previous meeting. Have all the arrangement been matter?
+3                              : Yes, all preparation have almost 90% done. That 10% is on progress in preparation of the gift.
+4                        : Madam Chairman, I heard that we are having some difficulties with our current sponsor for our company trip to Korea. Is there any solution that has been prepaid for this kind of matters.
+0              : Yes, it is true that we have slight problems with our previous sponsor, it has been settled by replacing them with our new sponsor from Bank Pembangunan Negara.
+5                       : Mrs Chairman, I’ve managed on the door gift during Gala Night Ceremony. I’ve ordered Baju Batik for every staffs. It still on packing process. I will complete that before event occurs. Besides that, the budgets for the door gift are recruiting.
+0              : Anything else to add, Zuraidah?
+6                   : No, Mrs Chairman.
+0              : Shall we close this discussion for now and continue to any other business?
+4                         : Yes Mrs 0, maintenance of the building is really in a poor rate. For example, the air-conditioner system in level 3 are having problem and the technician took for about one week to take action.
+5                        : Yes, that is true, I’ve been witnessing the situation for a few timesand many people complained too. Plus, I’ve experienced being stuck in the lift once.
+8                : That’s surprise me because I’ve already paid the technician on 27th November to fix the air-conditioner.
+6                     : Well, I suggest we should exchange him with the new technicians since this is the fifth times this had happened.
+3                             : Yes, I cannot refuse but to agree with it because we already give him a warning letter more than 3 times.
+0           : Okay, I will look into this matter. Mas, at the moment, could you please write a letter to the Human Resources Department asking them to find a new technician.
+1                 : Yes, I will mind the order.
+0                    : Thank You. Our next item is date, time and venue for the next meeting.
+1                 : MrsChairman, for the next meeting will on 12.12.2012, Wednesday, 2.00pm at meeting room. I will send notice if there is any changes.
+0                : Okay. Anything else? Any question? Comment? No? well then, thank you for coming. Will someone propose the meeting be adjourned?
+4                       : Yes, I proposed the meeting to be adjourned.
+0             : Seconder?
+7                      : I second the motion.
+0             : Thank You. The meeting is adjourned. Have a nice day.
