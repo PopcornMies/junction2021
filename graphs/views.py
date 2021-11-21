@@ -5,6 +5,13 @@ import plotly.graph_objects as go
 sentiment = 54.2
 activity = 67
 
+import sys
+sys.path.append('./sentiment_analysis/')
+
+import meeting_summary as ms
+
+sentiment, activity = ms.get_meeting_summary()
+
 def graph_view(request):
     val = sentiment
     bar = '#050038'
