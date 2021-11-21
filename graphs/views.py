@@ -28,8 +28,3 @@ def graph_view(request):
     graph = fig.to_html(full_html=False, default_height=500, default_width=500)
     context = {'graph': graph}
     return render(request, 'main.html', context)
-
-def test_view(request):
-    test = 'this is a test'
-    context = {'test': test}
-    return render(request, 'main.html', context)
