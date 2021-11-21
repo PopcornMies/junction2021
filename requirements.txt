@@ -97,3 +97,5 @@ webencodings==0.5.1
 websocket-client==1.2.1
 widgetsnbextension==3.5.2
 zipp==3.4.1
+dj-static==0.0.6
+gunicorn==19.1.1
