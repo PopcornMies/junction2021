@@ -32,6 +32,13 @@ h1 {
 				<p>Couldn't perform analysis.</p>
 				{% endif %}
 			{% endautoescape %}
+      {% autoescape off %}
+        {% if graph2 %}
+        {{ graph2|safe }}
+        {% else %}
+        <p>Couldn't perform analysis.</p>
+        {% endif %}
+      {% endautoescape %}
 			<div class="grid">
 	  </body>
 </html>
